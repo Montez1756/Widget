@@ -1,0 +1,4 @@
+itunes.json
+*.jpg
+/widget
+/__pycache__
