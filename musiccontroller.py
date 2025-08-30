@@ -42,11 +42,9 @@ class MusicControl(QWidget):
     def toggle(self):
         self.music.toggle()
         if self.music.get_player_state() == 1:
-            print("pause")
             self.play.setVisible(False)
             self.pause.setVisible(True)
         else:
-            print("play")
             self.play.setVisible(True)
             self.pause.setVisible(False)
         

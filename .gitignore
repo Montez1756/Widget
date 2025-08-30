@@ -2,3 +2,4 @@ itunes.json
 *.jpg
 /widget
 /__pycache__
+*.exe
